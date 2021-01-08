@@ -14,6 +14,13 @@ namespace NEWVariables
 
 
             var userName = Console.ReadLine();
+            Console.WriteLine("What is your name?");
+            Console.WriteLine($"Nice to meet you today {userName}.");
+
+            var firstNumberOperand = Console.ReadLine();
+            var secondNumberOperand = Console.ReadLine();
+            Console.WriteLine("What are your two favorite numbers?");
+
 
 
         }
